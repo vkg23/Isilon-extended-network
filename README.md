@@ -31,14 +31,14 @@ Generating Extended 'isi network interface' output\
 prints  RedColour if NOK for Ping/ShareCheck resul
 
 
-LNN  Name         Status     Owners                                              IP Addresses    Ping_RTT/(%Ploss) SmbClient-ShareCheck  isiBugfix:NetPool
------------------------------------------------------------------------------------------------
+LNN  Name         Status     Owners                                              IP Addresses    Ping_RTT/(%Ploss) SmbClient-ShareCheck  isiBugfix:NetPool\
+-----------------------------------------------------------------------------------------------\
 1    10gige-1     Up         -                                                   -
 1    10gige-2     Up         -                                                   -
-1    10gige-agg-1 Up         groupnet0.subnet_10gb_prd_c2.pool_nfs21_10gb_prd_c2 11.123.125.91   0.155ms(0%)       skip                  Pool_10g_Av
-                             groupnet0.subnet_10gb_prd_c2.pool_smb21_10gb_prd_c2 11.123.90.138   0.191ms(0%)       skip                  pool_10g_rep_c2
-                             groupnet0.subnet_10gb_prd_c2.pool_smb22_10gb_prd_c2 11.123.185.28   0.171ms(0%)       skip                  pool_nfs21_10gb_prd_
-                             groupnet0.subnet_10gb_prd_c2.pool_smb23_10gb_prd_c2 11.123.185.30   0.180ms(0%)       skip                  pool_nfs21_10gb_prd_
+1    10gige-agg-1 Up         groupnet0.subnet_10gb_prd_c2.pool_nfs21_10gb_prd_c2 11.123.125.91   0.155ms(0%)       skip                  Pool_10g_Av\
+                             groupnet0.subnet_10gb_prd_c2.pool_smb21_10gb_prd_c2 11.123.90.138   0.191ms(0%)       skip                  pool_10g_rep_c2\
+                             groupnet0.subnet_10gb_prd_c2.pool_smb22_10gb_prd_c2 11.123.185.28   0.171ms(0%)       skip                  pool_nfs21_10gb_prd_c2\
+                             groupnet0.subnet_10gb_prd_c2.pool_smb23_10gb_prd_c2 11.123.185.30   0.180ms(0%)       skip                  pool_nfs21_10gb_prd_c2\
                              groupnet0.subnet_10gb_prd_c2.pool_smb24_10gb_prd_c2 11.123.185.38   0.126ms(0%)       NOK[Failed]!          pool_smb21_10gb_prd_
                              groupnet0.subnet_10gb_prd_c2.pool_smb25_10gb_prd_c2 11.123.185.51   0.129ms(0%)       NOK[Failed]!          pool_smb22_10gb_prd_
                              groupnet0.subnet_10gb_rep_c2.pool_10g_rep_c2        11.123.185.83   0.161ms(0%)       OK[Active]            pool_smb23_10gb_prd_
@@ -61,3 +61,92 @@ LNN  Name         Status     Owners                                             
 2    ext-2        Up         -                                                   -
 3    10gige-1     No Carrier -                                                   -
 3    10gige-2     No Carrier -                                                   -
+
+
+# Project Title
+
+One Paragraph of project description goes here
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```
+Give examples
+```
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+```
+Give the example
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
+## Running the tests
+
+Explain how to run the automated tests for this system
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
