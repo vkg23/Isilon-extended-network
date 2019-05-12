@@ -10,9 +10,13 @@ Tasks Performed by Script:
 
 Input (prompted): provide the fqdn name of the cluster to be checked. 
 For SMB Share Check: 
+
      A unique Share for SMB Test in all SMB Pools: '//TestShareAccess' 
+     
     'mysmbcfg.cfg' contains the username,password and Domain name for the SMB Share Access validations.
+    
      By default - Only Pools With "SMB" String Matches are only Considered. 
+     
     
 How To Run: 
 
