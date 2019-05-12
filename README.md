@@ -86,4 +86,4 @@ LNN  Name         Status     Owners                                             
 
 ## Authors
 
-* **Vipin Kumar G** - *Initial work* - [PurpleBooth](https://github.com/vkg23)
+* **Vipin Kumar G** - *Initial work* - (https://github.com/vkg23)
