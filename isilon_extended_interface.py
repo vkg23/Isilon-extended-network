@@ -5,10 +5,15 @@ from subprocess import Popen, DEVNULL
 import subprocess
 import time
 
+#User Vars
+protocolString = ['smb']    #To Match SMB Pools and Perform SMB Client Checks.
+username = 'admin'
+TestShareName = '\TestShareAccess'
+
+#Code Variables
 myarray = []
 ip_pools = {}
-protocolString = ['smb','worm']
-username = 'admin'
+
 
 def collectdata(mycluster,command):
 	print ("Collecting Data: ", mycluster,command,' => ',end='', flush=True)
@@ -89,7 +94,7 @@ def mass_smbShareCheck(iplist):
 	for ip in iplist:
 		x = findipPool(ip)
 		if  protocolString[0] in x or protocolString[1] in x:
-			ip_arg='\\\\'+ ip + '\\santeam_test'
+			ip_arg='\\\\'+ ip + '\' + TestShareName
 			p[ip]=Popen(['smbclient',ip_arg,'-A','mysmbcfg.cfg','-c',myarg],stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 		else:
 			q[ip] = "skip"
