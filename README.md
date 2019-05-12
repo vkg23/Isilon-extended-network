@@ -5,7 +5,7 @@ This tool provides an extended view of 'isi network interface list' output.
 Its well known that, 'isi network interface list ' is  buggy in its display - the IP Coloumn and Corresponding 'poolname' . 
 This tool along with other healthchecks, will also find the right Poolname against each IP's . 
 
-Tasks Performed by Script:
+__What it Does:__
  1) Add new Columns for health Check: [ ping Response time, SMB Share Accessibility , isiBufFix_poolName ]
 
 Input (prompted): provide the fqdn name of the cluster to be checked. 
@@ -18,17 +18,17 @@ For SMB Share Check:
      By default - Only Pools With "SMB" String Matches are only Considered. 
      
     
-How To Run: 
+__How To Run:__
 
-###lab$ python forgit_14.py
-Cluster Name?: mycluster.mydomain
-Collecting Data:  mycluster.mydomain isi network interface list  => Done. 16321 lines received
-Collecting Data:  mycluster.mydomain isi network pools list -v  => Done. 14342 lines received
-Fetching IPs configured::98 ip's
-Triggering Ping for 98 ip's:  Done
-Triggering SmbClient ShareCheck for SMB pool ip's matching names ['smb', 'worm']:  done
-Generating Extended 'isi network interface' output
-prints  RedColour if NOK for Ping/ShareCheck result
+###lab$ python forgit_14.py\
+Cluster Name?: mycluster.mydomain\
+Collecting Data:  mycluster.mydomain isi network interface list  => Done. 16321 lines received\
+Collecting Data:  mycluster.mydomain isi network pools list -v  => Done. 14342 lines received\
+Fetching IPs configured::98 ip's\
+Triggering Ping for 98 ip's:  Done\
+Triggering SmbClient ShareCheck for SMB pool ip's matching names ['smb', 'worm']:  done\
+Generating Extended 'isi network interface' output\
+prints  RedColour if NOK for Ping/ShareCheck resul
 
 
 LNN  Name         Status     Owners                                              IP Addresses    Ping_RTT/(%Ploss) SmbClient-ShareCheck  isiBugfix:NetPool
