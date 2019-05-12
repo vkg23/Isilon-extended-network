@@ -64,12 +64,12 @@ LNN  Name         Status     Owners                                             
 2    10gige-2     Up         -                                                   -
 2    10gige-agg-1 Up         groupnet0.subnet_10gb_prd_c2.pool_nfs21_10gb_prd_c2 11.123.125.92   0.142ms(0%)       skip                  Pool_10g_Av
                              groupnet0.subnet_10gb_prd_c2.pool_smb21_10gb_prd_c2 11.123.90.139   0.141ms(0%)       skip                  pool_10g_rep_c2
-                             groupnet0.subnet_10gb_prd_c2.pool_smb22_10gb_prd_c2 11.123.185.15   0.166ms(0%)       skip                  pool_nfs21_10gb_prd_
-                             groupnet0.subnet_10gb_prd_c2.pool_smb23_10gb_prd_c2 11.123.185.23   0.177ms(0%)       skip                  pool_nfs21_10gb_prd_
-                             groupnet0.subnet_10gb_prd_c2.pool_smb24_10gb_prd_c2 11.123.185.44   0.153ms(0%)       NOK[Failed]!          pool_smb21_10gb_prd_
-                             groupnet0.subnet_10gb_prd_c2.pool_smb25_10gb_prd_c2 11.123.185.52   0.163ms(0%)       NOK[Failed]!          pool_smb22_10gb_prd_
-                             groupnet0.subnet_10gb_rep_c2.pool_10g_rep_c2        11.123.185.84   0.165ms(0%)       OK[Active]            pool_smb23_10gb_prd_
-                             groupnet0.Subnet_10G_AV_c2.Pool_10g_Av              11.123.185.92   0.169ms(0%)       NOK[Failed]!          pool_smb24_10gb_prd_
+                             groupnet0.subnet_10gb_prd_c2.pool_smb22_10gb_prd_c2 11.123.185.15   0.166ms(0%)       skip                  pool_nfs21_10gb_prd_c2
+                             groupnet0.subnet_10gb_prd_c2.pool_smb23_10gb_prd_c2 11.123.185.23   0.177ms(0%)       skip                  pool_nfs21_10gb_prd_c2
+                             groupnet0.subnet_10gb_prd_c2.pool_smb24_10gb_prd_c2 11.123.185.44   0.153ms(0%)       NOK[Failed]!          pool_smb21_10gb_prd_c2
+                             groupnet0.subnet_10gb_prd_c2.pool_smb25_10gb_prd_c2 11.123.185.52   0.163ms(0%)       NOK[Failed]!          pool_smb22_10gb_prd_c2
+                             groupnet0.subnet_10gb_rep_c2.pool_10g_rep_c2        11.123.185.84   0.165ms(0%)       OK[Active]            pool_smb23_10gb_prd_c2
+                             groupnet0.Subnet_10G_AV_c2.Pool_10g_Av              11.123.185.92   0.169ms(0%)       NOK[Failed]!          pool_smb24_10gb_prd_c2
                                                                                  11.123.185.122  0.167ms(0%)       NOK[Failed]!          pool_smb25_10gb_prd_
 2    ext-1        Up         -                                                   -
 2    ext-2        Up         -                                                   -
