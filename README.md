@@ -1,25 +1,33 @@
-# Isilon-Network-Checks
-For DELL/EMC Isilon OneFS NAS , isilon extended network interface  output. 
+
+
+# Isilon-Network-Checks /  isilon extended network interface 
+
+For DELL/EMC Isilon OneFS NAS , [ isilon extended network interface ]  output. 
 
 This tool provides an extended view of 'isi network interface list' output.
 Its well known that, 'isi network interface list ' is  buggy in its display - the IP Coloumn and Corresponding 'poolname' . 
-This tool along with other healthchecks, will also find the right Poolname against each IP's . 
+This tool along with other healthchecks, will also find the right Poolname against each IP's .
 
-__What it Does:__
- 1) Add new Columns for health Check: [ ping Response time, SMB Share Accessibility , isiBufFix_poolName ]
+## Getting Started
+
+Adds new Columns for health Check: [ ping Response time, SMB Share Accessibility , isiBufFix_poolName ]
+
 
 Input (prompted): provide the fqdn name of the cluster to be checked. 
-For SMB Share Check: 
+
+For SMB Share Check: [ Pre-Requisite ]
 
      A unique Share for SMB Test in all SMB Pools: '//TestShareAccess' 
      
     'mysmbcfg.cfg' contains the username,password and Domain name for the SMB Share Access validations.
     
      By default - Only Pools With "SMB" String Matches are only Considered. 
-     
-    
-__How To Run:__
 
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```
 ###lab$ python forgit_14.py\
 Cluster Name?: mycluster.mydomain\
 Collecting Data:  mycluster.mydomain isi network interface list  => Done. 16321 lines received\
@@ -62,21 +70,6 @@ LNN  Name         Status     Owners                                             
 3    10gige-1     No Carrier -                                                   -
 3    10gige-2     No Carrier -                                                   -
 
-
-# Project Title
-
-One Paragraph of project description goes here
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
 ```
 
 ### Installing
