@@ -3,8 +3,10 @@
 # Isilon-Network-Checks /  isilon extended network interface 
 
 For DELL/EMC Isilon OneFS NAS , [ isilon extended network interface ]  output. 
-
-This tool provides an extended view of 'isi network interface list' output.
+```
+Provides an extended view of 'isi network interface list' output. - Making Your Checks Easier ! 
+Adds + 'Ping Status ResponseTime/loss' , 'SMB Share Access Check' , 'Display the right Pool for the IP' ( which is Buggy in isi )
+```
 Its well known that, 'isi network interface list ' is  buggy in its display - the IP Coloumn and Corresponding 'poolname' . 
 This tool along with other healthchecks, will also find the right Poolname against each IP's .
 
