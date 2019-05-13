@@ -6,7 +6,7 @@ import subprocess
 import time
 
 #User Vars
-protocolString = ['smb']    #To Match SMB Pools and Perform SMB Client Checks.
+protocolString = ['smb','cifs']    #To Match SMB Pools and Perform SMB Client Checks.
 username = 'admin'
 TestShareName = '\TestShareAccess'
 myarg = 'more SANTeam_Monitor_Flagfile.txt'  #A Test file with This name and a line With Word 'Alpha23' to be in place. Script Performs SMBclient More and Look for 'Alpha23' to Confirm Share Accessible or not. 
