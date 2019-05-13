@@ -59,7 +59,7 @@ LNN  Name         Status     Owners                                             
                              groupnet0.subnet_10gb_prd_z1.pool_smbxx_10gb_prd_z1 11.123.xyz.51   0.129ms(0%)       NOK[Failed]!          pool_smbxx_10gb_prd_z1
                              groupnet0.subnet_10gb_rep_z1.pool_10g_rep_c2        11.123.xyz.83   0.161ms(0%)       OK[Active]            pool_smbxx_10gb_prd_z1
                              groupnet0.Subnet_10G_AV_z1.Pool_10g_Av_z1           11.123.xyz.91   0.150ms(0%)       NOK[Failed]!          pool_smbxx_10gb_prd_z1
-																				 11.123.xyz.112  0.151ms(0%)       NOK[Failed]!          pool_smbxx_10gb_prd_z1
+																    
 1    ext-1        Up         -                                                   -
 1    ext-2        Up         -                                                   -
 2    10gige-1     Up         -                                                   -
