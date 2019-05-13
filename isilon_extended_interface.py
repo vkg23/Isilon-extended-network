@@ -94,7 +94,7 @@ def mass_smbShareCheck(iplist):
 	for ip in iplist:
 		x = findipPool(ip)
 		if  protocolString[0] in x or protocolString[1] in x:
-			ip_arg='\\\\'+ ip + '\' + TestShareName
+			ip_arg='\\\\'+ ip + TestShareName
 			p[ip]=Popen(['smbclient',ip_arg,'-A','mysmbcfg.cfg','-c',myarg],stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 		else:
 			q[ip] = "skip"
